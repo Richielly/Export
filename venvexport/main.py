@@ -3,7 +3,7 @@ import streamlit as st
 # from pacote import Pacote
 
 if (st.checkbox('Iniciar')):
-    local = st._update_logger()
+    local = st.file_uploader()
     st.info(local)
     # ler = Arquivo()
     # competencias = Arquivo()
