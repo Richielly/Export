@@ -2,9 +2,10 @@ import streamlit as st
 # from arquivo import Arquivo
 # from pacote import Pacote
 import os
+
 if (st.checkbox('Iniciar')):
-    local = st.file_uploader('Caminho do Arquivo')
-    st.table(local)
+    local = st.file_uploader('Caminho do Arquivo',type=['xlsx'])
+    st.write(local)
 
 
     st.info(os.getcwd())
