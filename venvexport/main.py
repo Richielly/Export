@@ -3,7 +3,8 @@ import streamlit as st
 # from pacote import Pacote
 
 if (st.checkbox('Iniciar')):
-    pass
+    local = st._update_logger()
+    st.info(local)
     # ler = Arquivo()
     # competencias = Arquivo()
     # if st.sidebar.checkbox("Arquivos SimAm Detalhe"):
