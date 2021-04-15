@@ -1,10 +1,13 @@
 import streamlit as st
 # from arquivo import Arquivo
 # from pacote import Pacote
-
+import os
 if (st.checkbox('Iniciar')):
-    local = st.file_uploader()
+    local = st.file_uploader('Caminho do Arquivo')
     st.info(local)
+
+
+    st.info(os.getcwd())
     # ler = Arquivo()
     # competencias = Arquivo()
     # if st.sidebar.checkbox("Arquivos SimAm Detalhe"):
