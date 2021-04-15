@@ -3,6 +3,7 @@ from arquivo import Arquivo
 from pacote import Pacote
 
 if (st.checkbox('Iniciar')):
+    pass
     # ler = Arquivo()
     # competencias = Arquivo()
     # if st.sidebar.checkbox("Arquivos SimAm Detalhe"):
