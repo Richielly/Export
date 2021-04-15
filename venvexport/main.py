@@ -4,7 +4,7 @@ import streamlit as st
 import os
 if (st.checkbox('Iniciar')):
     local = st.file_uploader('Caminho do Arquivo')
-    st.info(local)
+    st.table(local)
 
 
     st.info(os.getcwd())
